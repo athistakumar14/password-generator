@@ -1,0 +1,53 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.pg__container {
+  width: 400px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  background-color: grey;
+  padding: 1rem;
+}
+.pg__output {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pg__range__container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.pg__char__length {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.password__option {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.input__radio__btn {
+  display: flex;
+  column-gap: 4px;
+  width: 180px;
+}
+.pg__strength {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn {
+  background-color: #609966;
+  padding: 10px;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+}
