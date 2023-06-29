@@ -82,7 +82,6 @@ function App() {
 
   return (
     <div className="pg__container">
-      {/* password display and copy clipboard */}
       <div className="pg__output">
         <div className="password__text" ref={cpyRef}>
           {password_range}
